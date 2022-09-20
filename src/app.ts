@@ -353,7 +353,7 @@ class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {
       !validate(descriptionValidatable) ||
       !validate(peopleValidatable)
     ) {
-      //gelen paramet. datalarin dogrulugunu kontrol ediyoruz 
+      //gelen paramet. datalarin dogrulugunu kontrol ediyoruz
       alert("Invalid input, please try again!");
       return;
     } else {
